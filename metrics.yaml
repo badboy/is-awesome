@@ -1,0 +1,17 @@
+---
+$schema: moz://mozilla.org/schemas/glean/metrics/2-0-0
+
+is_awesome:
+  awesomeness:
+    type: counter
+    description: |
+      How often where we asked if something is awesome?
+    bugs:
+      - https://bugzilla.mozilla.org/FIXME
+    data_reviews:
+      - https://bugzilla.mozilla.org/FIXME
+    data_sensitivity:
+      - technical
+    notification_emails:
+      - glean-team@mozilla.com
+    expires: never
