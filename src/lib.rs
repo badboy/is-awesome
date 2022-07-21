@@ -5,7 +5,7 @@ mod metrics {
 
 #[cfg(feature = "gecko")]
 mod metrics {
-    use fog::metrics::*;
+    pub use ::fog::metrics::is_awesome;
 }
 
 pub fn is_awesome() -> bool {
